@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:ital,wght@0,400;0,500;1,400&family=The+Nautigal:wght@400;700&display=swap');
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ .containers {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+ } 
+
+body {
+	font-family: 'Island Moments', cursive;
+}
+
+
+/* .navbar{
+   
+    border: 2px solid black;
+} */
+
+/* .navbar .logo {
+	float: left;
+	margin-left: 30px;
+} */
+
+/* .navbar .nav-items {
+	float: right;
+} */
+
+/* .navbar .navbar-container .nav-items .nav-item {
+	display: inline-block;
+	font-weight: bold;
+	margin: 3px;
+	padding: 5px;
+	letter-spacing: 0.5px;
+} */
+
+.body {
+	background-color: rgb(242, 245, 247);
+	
+}
+
+.container {
+	margin-top: 50px;
+}
+
+
+/* .navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+ul li {
+	list-style: none;
+}
+
+.nav-item:hover {
+	color: rgb(22, 194, 122);
+	border-bottom: 1px solid black;
+}
+.nav-item a{
+	font-weight: 500;
+	color: cornflowerblue;
+}
+
+.image {
+	height: 300px;
+	overflow: hidden;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.image img{
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+
+.btn {
+	color: 2px solid coral;
+	text-decoration: none;
+}
+.alink{
+	text-decoration: none;
+}
+
+.section {
+	margin-top: 50px;
+}
+
+.headstyle {
+	margin-top: 10px;
+}
+
+.line {
+	margin-top: 20px;
+}
+.head2{
+	margin-left: 40px;
+}
+
+.para2{
+	margin-left: 40px;
+}
+.head3{
+	margin-left: 40px;
+}
+
+#footer {
+	margin-top: 20px;
+	padding: 0.6rem;
+	
+	text-align: center;
+	font-weight: 400;
+	background: rgb(255, 255, 255);
+}
+#footer h3 {
+    font-size: 20px;
+}
+#footer p{
+	font-size: 10px;
+}
